@@ -1,0 +1,11 @@
+
+document.getElementsByTagName('button')[0].addEventListener("click",function(){
+if (document.getElementsByTagName('div')[0].style.background(Color==="green"){
+document.getElementByTagName("div")[0].style.backgroundColor="red";
+document.getElmentByTagName('button')[].innerHTML="make green";
+}
+else {
+document.getElementsByTagName('button')[0].style.backgroundColor="green";
+document.getElementsByTagName("div")[0].innerHTML="make red";
+
+});

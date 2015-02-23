@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task4</title>
+    <link rel="stylesheet" type="text/css" href="task3.css">
+   
+</head>
+<body>
+ <div></div> 
+ <button>Make Green</button>  <!-- HTML goes here -->
+  <script type="text/javascript" src="task3.js"></script>
+</body>
+</html>

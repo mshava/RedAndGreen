@@ -1,13 +1,16 @@
+var colorName = prompt("enter color");
+var id = prompt("enter id");
+id = document.getElementById(id);
 
+function setBackgroundColor (id,colorName){
 
-if (document.getElementsById(mySquare).style.backgroundColor=== "green"){
-	document.getElementsById(mySquare).style.backgroundColor="green";
-      console.log('success');
+  if(colorName){
+  	id.style.backgroundColor = colorName;
+     window.alert("success");
+
+  }else {
+
+  	window.alert("failure");
+  }
+
 }
-
-else if(document.getElementsById(mySquare).style.backgroundColor==="red"){
-	document.getElementsById(mySquare).style.backgroundColor="red";
-	console.log('failure');
-}
-
-setBackgroundColor('mySquare','red');
